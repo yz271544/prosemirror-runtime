@@ -23,6 +23,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/server1.js",
+    "pup": "node dist/src/pup.js",
     "server1": "nodemon --inspect -e ts --watch ./ --exec npm start src/server1.ts",
     "clean": "rm -Rf ./dist",
     "test": "ava"
@@ -32,10 +33,18 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@tiptap/pm": "^2.6.4",
+    "@types/puppeteer": "^7.0.4",
     "concurrently": "^8.2.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "phantomjs-prebuilt": "^2.1.16",
+    "prosemirror-example-setup": "^1.2.3",
+    "prosemirror-model": "^1.22.3",
+    "prosemirror-schema-basic": "^1.2.3",
+    "prosemirror-schema-list": "^1.4.1",
+    "prosemirror-state": "^1.4.3",
+    "prosemirror-view": "^1.33.10",
+    "puppeteer": "^23.1.0",
     "typescript": "^5.5.4"
   },
   "devDependencies": {
