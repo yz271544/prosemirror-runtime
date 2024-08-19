@@ -1,0 +1,30 @@
+{
+  "name": "prosemirror-runtime",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "concurrently \"npm run clean\" \"tsc\"",
+    "start": "node dist/server1.js",
+    "server1": "nodemon --inspect -e ts --watch ./ --exec npm start src/server1.ts",
+    "clean": "rm -Rf ./dist",
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tiptap/pm": "^2.6.4",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@ava/typescript": "^5.0.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.4.0",
+    "ava": "^6.1.3"
+  }
+}
