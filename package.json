@@ -3,8 +3,25 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "ava": {
+    "files": [
+      "tests/**/*",
+      "!tests/utils/**/*",
+      "!database/**/*"
+    ],
+    "extensions": {
+      "ts": "module"
+    },
+    "nodeArguments": [
+      "--conditions=source",
+      "--no-warnings",
+      "--loader=ts-node/esm/transpile-only",
+      "--experimental-specifier-resolution=node"
+    ],
+    "workerThreads": false
+  },
   "scripts": {
-    "build": "concurrently \"npm run clean\" \"tsc\"",
+    "build": "tsc",
     "start": "node dist/server1.js",
     "server1": "nodemon --inspect -e ts --watch ./ --exec npm start src/server1.ts",
     "clean": "rm -Rf ./dist",
@@ -25,6 +42,7 @@
     "@ava/typescript": "^5.0.0",
     "@types/express": "^4.17.21",
     "@types/node": "^22.4.0",
-    "ava": "^6.1.3"
+    "ava": "^6.1.3",
+    "ts-node": "^10.9.2"
   }
 }
