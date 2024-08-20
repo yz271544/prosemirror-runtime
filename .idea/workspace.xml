@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="231b8b94-0753-4971-baa6-8977fc1d7a40" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/pup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pm/pm.ts" afterDir="false" />
+    <list default="true" id="231b8b94-0753-4971-baa6-8977fc1d7a40" name="Changes" comment="puppeteer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/base/pm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/base/base.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pm/pm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pm/pm.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +38,9 @@
     "Node.js.ava base.ts first test.executor": "Run",
     "Node.js.ava pm.ts first test.executor": "Run",
     "Node.js.ava pm.ts pm test1.executor": "Run",
+    "Node.js.ava pm.ts runJSInBrowser test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "puppeteer",
     "last_opened_file_path": "/lyndon/iProject/webpath/prosemirror-runtime",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -65,14 +63,17 @@
       <recent name="$PROJECT_DIR$/tests/base" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.ava pm.ts pm test1">
+  <component name="RunManager" selected="Node.js.ava pm.ts runJSInBrowser test">
     <configuration name="ava base.ts first test" type="NodeJSConfigurationType" application-parameters="-m &quot;first test&quot; -v tests/base/base.ts" path-to-js-file="node_modules/ava/entrypoints/cli.mjs" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="ava pm.ts first test" type="NodeJSConfigurationType" application-parameters="-m &quot;first test&quot; -v tests/base/pm.ts" path-to-js-file="node_modules/ava/entrypoints/cli.mjs" working-dir="$PROJECT_DIR$">
+    <configuration name="ava pm.ts first test" type="NodeJSConfigurationType" application-parameters="-m &quot;first test&quot; -v tests/pm/pm.ts" path-to-js-file="node_modules/ava/entrypoints/cli.mjs" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="ava pm.ts pm test1" type="NodeJSConfigurationType" application-parameters="-m &quot;pm test1&quot; -v tests/pm/pm.ts" path-to-js-file="node_modules/ava/entrypoints/cli.mjs" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="ava pm.ts runJSInBrowser test" type="NodeJSConfigurationType" application-parameters="-m &quot;runJSInBrowser test&quot; -v tests/pm/pm.ts" path-to-js-file="node_modules/ava/entrypoints/cli.mjs" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm">
@@ -116,6 +117,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.ava pm.ts runJSInBrowser test" />
       <item itemvalue="Node.js.ava base.ts first test" />
       <item itemvalue="Node.js.ava pm.ts first test" />
       <item itemvalue="Node.js.ava pm.ts pm test1" />
@@ -148,6 +150,7 @@
       <workItem from="1723889915256" duration="7994000" />
       <workItem from="1724060327758" duration="180000" />
       <workItem from="1724060511329" duration="10215000" />
+      <workItem from="1724112469000" duration="652000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
