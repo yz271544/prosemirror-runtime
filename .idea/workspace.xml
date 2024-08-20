@@ -33,37 +33,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.ava base.ts first test.executor": "Run",
-    "Node.js.ava pm.ts first test.executor": "Run",
-    "Node.js.ava pm.ts pm test1.executor": "Run",
-    "Node.js.ava pm.ts runJSInBrowser test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "puppeteer",
-    "last_opened_file_path": "/lyndon/iProject/webpath/prosemirror-runtime",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "/home/SENSETIME/huzhengyang.vendor/.nvm/versions/node/v20.16.0/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.clean.executor": "Run",
-    "npm.pup.executor": "Run",
-    "npm.server1.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/lyndon/iProject/webpath/prosemirror-runtime/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.ava base.ts first test.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.ava pm.ts first test.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.ava pm.ts pm test1.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.ava pm.ts runJSInBrowser test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;puppeteer&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/lyndon/iProject/webpath/prosemirror-runtime&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/home/SENSETIME/huzhengyang.vendor/.nvm/versions/node/v20.16.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.clean.executor&quot;: &quot;Run&quot;,
+    &quot;npm.pup.executor&quot;: &quot;Run&quot;,
+    &quot;npm.server1.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/lyndon/iProject/webpath/prosemirror-runtime/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests/base" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.ava pm.ts runJSInBrowser test">
+  <component name="RunManager" selected="Node.js.ava pup.ts runJSInBrowser test">
     <configuration name="ava base.ts first test" type="NodeJSConfigurationType" application-parameters="-m &quot;first test&quot; -v tests/base/base.ts" path-to-js-file="node_modules/ava/entrypoints/cli.mjs" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -74,6 +74,9 @@
       <method v="2" />
     </configuration>
     <configuration name="ava pm.ts runJSInBrowser test" type="NodeJSConfigurationType" application-parameters="-m &quot;runJSInBrowser test&quot; -v tests/pm/pm.ts" path-to-js-file="node_modules/ava/entrypoints/cli.mjs" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="ava pup.ts runJSInBrowser test" type="NodeJSConfigurationType" application-parameters="-m &quot;runJSInBrowser test&quot; -v tests/pup/pup.ts" path-to-js-file="node_modules/ava/entrypoints/cli.mjs" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm">
@@ -117,6 +120,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.ava pup.ts runJSInBrowser test" />
       <item itemvalue="Node.js.ava pm.ts runJSInBrowser test" />
       <item itemvalue="Node.js.ava base.ts first test" />
       <item itemvalue="Node.js.ava pm.ts first test" />
@@ -128,6 +132,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.pup" />
         <item itemvalue="npm.pup" />
       </list>
     </recent_temporary>

@@ -1,8 +1,6 @@
 import test from 'ava'
 import puppeteer from "puppeteer";
 
-
-
 // 要运行的 JavaScript 代码
 const jsCode = `
     (() => {
